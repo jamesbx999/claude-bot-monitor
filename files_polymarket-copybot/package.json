@@ -1,0 +1,21 @@
+{
+  "name": "polymarket-copybot",
+  "version": "1.0.0",
+  "description": "Copies trades from a target Polymarket wallet",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dry":   "DRY_RUN=true node index.js"
+  },
+  "dependencies": {
+    "@polymarket/clob-client-v2": "^2.0.0",
+    "axios":  "^1.7.2",
+    "chalk":  "^5.3.0",
+    "dotenv": "^16.4.5",
+    "viem":   "^2.16.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
