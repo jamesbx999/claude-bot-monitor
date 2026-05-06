@@ -597,7 +597,7 @@ function addTrade() {
   setBar('wr', exec > 0 ? Math.round(wins/exec*100) : 0);
   setBar('hg', Math.round(hedges/total*100));
   setBar('sk', Math.round(skips/total*100));
-  setBar('lr', exec > 0 ? Math.round(losses/exec*100) : 0);
+  setBar('lr', exec > 0 ? Math.round(losses/exec*100) : 0); 
 
   document.getElementById('feed-count').textContent = feedCount + ' EVENTS';
   updateChart();
